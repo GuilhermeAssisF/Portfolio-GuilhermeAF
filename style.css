@@ -311,22 +311,24 @@ section{
     margin-top: 5rem;
 }
 
-.input-box input{
+.input-box .text-email{
     position: relative;
     border-radius: 3rem;
     border: 2px solid black;
     padding: 2rem 8rem;
     font-size: 3rem;
+    color: black;
+    transition: 0.55s;
 }
 
-.input-box input::placeholder{
-    font-size: 1.7rem;
-    text-align: center;
-    opacity: 50%;
+.text-email:hover{
+    background-color: black;
+    color: white;
 }
 
 .input{
     position: relative;
+    transition: 0.55s;
 }
 
 .input i{
@@ -335,6 +337,10 @@ section{
     top: 50%;
     left: 10px;
     transform: translate(50%, -50%);
+}
+
+.input:hover{
+    color: white;
 }
 
 footer{
@@ -379,11 +385,8 @@ footer ul li a{
     #experience-img{
         display: none;
     }
-    .input-box input{
+    .input-box .text-email{
         padding: 2rem 5rem;
-        font-size: 2.5rem;
-    }
-    .input input::placeholder{
         font-size: 2.5rem;
     }
     .input-box i{
@@ -408,13 +411,11 @@ footer ul li a{
     .project-card img{
         width: 60vw;
     }
-    .input-box input{
+    .input-box .text-email{
         padding: 1rem 2rem;
         font-size: 1.8rem;
     }
-    .input-box input::placeholder{
-        font-size: 1.5rem;
-    }
+    
     .input-box i{
         display: none;
     }
@@ -447,6 +448,7 @@ footer ul li a{
     .nav-links li{
         margin-top: 1.5rem;
         padding: 1rem;
+        font-size: 1.3rem;
     }
     .nav-links.active{
         display: block;
@@ -456,7 +458,8 @@ footer ul li a{
         gap: 2rem;
     }
     header .logo{
-        font-size: 1.0rem;
+        font-size: 1.3rem;
+        margin-left: 1rem;
     }
     .about-container img{
         width: 80vw;
@@ -464,14 +467,12 @@ footer ul li a{
     .section-title{
         font-size: 3rem;
     }
-    .input-box input{
+    .input-box .text-email{
         padding: 0.5rem 3rem;
         width: 80%;
         font-size: 1.5rem;
     }
-    .input-box input::placeholder{
-        font-size: 1.5rem;
-    }
+    
     footer ul{
         gap: 1rem;
     }
