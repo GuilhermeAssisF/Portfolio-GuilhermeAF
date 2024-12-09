@@ -415,9 +415,10 @@ footer ul li a{
     .project-card img{
         width: 60vw;
     }
+
     .input-box .text-email{
         padding: 1rem 2rem;
-        font-size: 1.8rem;
+        font-size: 0.2rem;
     }
     
     .input-box i{
@@ -472,9 +473,9 @@ footer ul li a{
         font-size: 3rem;
     }
     .input-box .text-email{
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 1rem;
         width: 80%;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
     
     footer ul{
