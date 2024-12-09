@@ -253,6 +253,10 @@ section{
     background: linear-gradient(to bottom, rgb(0, 157, 255), rgb(255, 0 ,255));
 }
 
+.projects{
+    gap: 2rem;
+}
+
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
