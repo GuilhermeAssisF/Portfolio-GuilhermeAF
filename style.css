@@ -168,7 +168,7 @@ section{
 
 .socials{
     display: flex;
-    gap: 2rem;
+    gap: 1.3rem;
 }
 
 .socials i{
@@ -192,6 +192,15 @@ section{
     margin-bottom: 3rem;
 }
 
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
+}
+
 .experience-info{
     display: flex;
     align-items: center;
@@ -202,6 +211,7 @@ section{
 .experience img{
     width: 24vw;
     border-radius: 3rem;
+    animation: float 4s ease-in-out infinite;
 }
 
 .grid{
